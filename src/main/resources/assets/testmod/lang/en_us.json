@@ -2,5 +2,7 @@
   "item.testmod.ruby": "Ruby",
   "item.testmod.raw_ruby": "Raw Ruby",
 
+  "block.testmod.ruby_block": "Block of Ruby",
+
   "creativetab.test_tab": "Ruby Test Tab"
 }

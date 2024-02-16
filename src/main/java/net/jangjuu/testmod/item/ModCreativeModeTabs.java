@@ -1,6 +1,7 @@
 package net.jangjuu.testmod.item;
 
 import net.jangjuu.testmod.TestMod;
+import net.jangjuu.testmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -23,6 +24,7 @@ public class ModCreativeModeTabs {
 
                       pOutput.accept(Items.EMERALD);
 
+                      pOutput.accept(ModBlocks.RUBY_BLOCK.get());
 
                     })
                     .build());
