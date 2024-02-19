@@ -3,5 +3,7 @@
   "item.testmod.raw_ruby": "Raw Ruby",
   "item.testmod.frozone_boots": "Frozone Boots",
 
-  "creativetab.test_tab": "Test Tab"
+  "creativetab.test_tab": "Test Tab",
+
+  "effect.testmod.frozone": "Frozone"
 }

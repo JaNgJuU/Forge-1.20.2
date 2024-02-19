@@ -1,6 +1,7 @@
 package net.jangjuu.testmod;
 
 import com.mojang.logging.LogUtils;
+import net.jangjuu.testmod.effect.ModEffects;
 import net.jangjuu.testmod.item.ModCreativeModeTabs;
 import net.jangjuu.testmod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -45,6 +46,8 @@ public class TestMod {
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
+
+        ModEffects.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
